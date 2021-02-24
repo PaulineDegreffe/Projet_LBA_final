@@ -1,0 +1,129 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    h1 {
+        margin-left: 1rem;
+        font-size: 2.2rem;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    header {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    .inscription {
+        margin-right: 20px;
+        width: 300px;
+    }
+    
+    .button {
+        padding: .5rem .5rem;
+        margin-bottom: 1rem;
+        background-color: rgb(197, 24, 24);
+        color: white;
+        border: none;
+        border-radius: 0.2rem;
+    }
+    
+    .nav {
+        margin: 1rem;
+    }
+    
+    .nav nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        list-style: none;
+        font-size: 1.25rem;
+    }
+    /* Colonnes */
+    
+    .colonnes {
+        display: flex;
+    }
+    /* colonne1 */
+    
+    .colonne1 h3 {
+        margin-top: 1rem;
+    }
+    
+    .colonnes p {
+        padding: 1rem 0;
+    }
+    /* colonne2 */
+    
+    .colonne2 {
+        padding: 0 1rem;
+    }
+    
+    .imagec2 {
+        display: flex;
+        /* margin: 1rem 0 */
+    }
+    
+    .imagec2 img {
+        height: 4rem;
+        margin-right: 1rem;
+    }
+    /* colonne3 */
+    
+    .colonne3 img {
+        height: 13rem;
+    }
+    
+    .colonne3 h3 {
+        margin-top: 1rem;
+    }
+    
+    .colonne3 p {
+        padding: 1rem 0;
+    }
+    /* adresse mail dans le middle */
+    
+    .mail {
+        padding: 1% 25%;
+        background-color: rgb(221, 219, 219);
+        height: 8rem;
+    }
+    
+    .mail h3 {
+        font-size: 2rem;
+    }
+    
+    .mail button {
+        background-color: black;
+        color: white;
+        height: 2rem;
+        width: 5rem;
+        border-radius: .5rem;
+        margin-left: 3rem;
+    }
+    /* bloc de fin */
+    
+    .blocend {
+        display: flex;
+        padding-top: 2rem;
+    }
+    
+    .fleximgend {
+        display: flex;
+        flex-direction: row;
+    }
